@@ -1,0 +1,12 @@
+import {BSDate,fromInstant,monthGrid,HolidayCalendar,holidayCoverage} from '@prabish01/nepali-date';
+const date=new BSDate(2083,1,1);
+console.log(date.toAD());
+console.log(date.format('dddd, D MMMM YYYY'));
+console.log(date.format('DD MMMM YYYY',{locale:'ne'}));
+console.log(BSDate.parse('२०८३-०१-०१').toString());
+console.log(fromInstant('2026-04-13T18:15:00Z').toString());
+console.log(date.toInstant().toISOString());
+console.log(date.addMonths(3).fiscalYear());
+console.table(monthGrid(2083,1).map(week=>week.map(day=>day?.day??'')));
+console.log(holidayCoverage());
+console.log(new HolidayCalendar().forDate(date));

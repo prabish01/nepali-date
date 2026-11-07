@@ -1,0 +1,67 @@
+[
+  {
+    "bs": "1975-01-01",
+    "ad": "1918-04-13",
+    "source": "Pinned upstream config.py reference date"
+  },
+  {
+    "bs": "2000-01-01",
+    "ad": "1943-04-14",
+    "source": "Historical common reference; nepali-datetime and Nepali calendar implementations"
+  },
+  {
+    "bs": "2081-01-01",
+    "ad": "2024-04-13",
+    "source": "https://om.nepalembassy.gov.np/pages/Holidays-of-Embassy-9/"
+  },
+  {
+    "bs": "2082-01-01",
+    "ad": "2025-04-14",
+    "source": "https://giwmscdntwo.gov.np/media/pages/files/Public%20Holidays_s6o2xlr.pdf"
+  },
+  {
+    "bs": "2083-01-01",
+    "ad": "2026-04-14",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-01-18",
+    "ad": "2026-05-01",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-02-15",
+    "ad": "2026-05-29",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-05-12",
+    "ad": "2026-08-28",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-05-19",
+    "ad": "2026-09-04",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-07-03",
+    "ad": "2026-10-20",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-07-24",
+    "ad": "2026-11-10",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-10-01",
+    "ad": "2027-01-15",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  },
+  {
+    "bs": "2083-11-07",
+    "ad": "2027-02-19",
+    "source": "https://uk.nepalembassy.gov.np/pages/embassy-holidays/"
+  }
+]

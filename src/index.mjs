@@ -1,0 +1,2 @@
+import api from './index.cjs';
+export const {BSDate, NEPAL_TIMEZONE, bsToAD, adToBS, fromInstant, toInstant, parseBS, formatBS, daysInMonth, isValidBS, addDays, addMonths, addYears, differenceInDays, compare, startOfMonth, endOfMonth, startOfYear, endOfYear, fiscalYear, fiscalYearBounds, monthGrid, eachDayOfInterval, isWithinInterval, isWeekend, toLatinDigits, toNepaliDigits, tithi, tithiFromLongitudes, TithiCalendar, HolidayCalendar, calendarInfo, holidayCoverage} = api;

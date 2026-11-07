@@ -1,0 +1,383 @@
+{
+  "version": "2026.11.0",
+  "coverage": {
+    "years": [
+      2083
+    ],
+    "complete": false,
+    "description": "Dated public and conditional holidays transcribed from the original MOHA 2083 notice, sections 2–7 (PDF pages 2–6). Government offices/public bodies; some services remain open under section 10. Later announcements, local additions and observances with unannounced dates are not included. Saturdays are handled by isWeekend().",
+    "source": "https://www.moha.gov.np/en/page/government-and-public-holidays-in-2083",
+    "sourcePdf": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file",
+    "sourceSha256": "ffbabf83cad254b485504627f9e47fce6c1a7a28e2693a399ae88bf9c0279a29",
+    "pendingObservances": [
+      "Eid al-Fitr",
+      "Eid al-Adha",
+      "Siruwa Pawani",
+      "Matsyendranath Bhoto Jatra",
+      "Mohammad Jayanti",
+      "Guru Nanak Jayanti"
+    ]
+  },
+  "records": [
+    {
+      "id": "new-year",
+      "date": "2083-01-01",
+      "name": "Nepali New Year",
+      "nameNe": "नेपाली नयाँ वर्ष",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "chandi-buddha-ubhauli",
+      "date": "2083-01-18",
+      "name": "Chandi Purnima / Buddha Jayanti / Ubhauli",
+      "nameNe": "चण्डी पूर्णिमा / बुद्ध जयन्ती / उभौली",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "labour-day",
+      "date": "2083-01-18",
+      "name": "International Labour Day",
+      "nameNe": "विश्व मजदुर दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "republic-day",
+      "date": "2083-02-15",
+      "name": "Republic Day",
+      "nameNe": "गणतन्त्र दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "rakshya-bandhan",
+      "date": "2083-05-12",
+      "name": "Rakshya Bandhan",
+      "nameNe": "रक्षाबन्धन",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "gai-jatra",
+      "date": "2083-05-13",
+      "name": "Gai Jatra (Newar community)",
+      "nameNe": "गाईजात्रा (नेवार समुदाय)",
+      "scope": "NP-community:Newar",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=4"
+    },
+    {
+      "id": "gai-jatra",
+      "date": "2083-05-13",
+      "name": "Gai Jatra (Kathmandu Valley)",
+      "nameNe": "गाईजात्रा (काठमाडौं उपत्यका)",
+      "scope": "NP-region:KathmanduValley",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "gaura",
+      "date": "2083-05-19",
+      "name": "Gaura Parwa",
+      "nameNe": "गौरा पर्व",
+      "scope": "NP-community:Gaura",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=4"
+    },
+    {
+      "id": "krishna-janmashtami",
+      "date": "2083-05-19",
+      "name": "Krishna Janmashtami",
+      "nameNe": "श्रीकृष्ण जन्माष्टमी",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "teej",
+      "date": "2083-05-29",
+      "name": "Haritalika Teej (women employees)",
+      "nameNe": "हरितालिका तीज (महिला कर्मचारी)",
+      "scope": "NP-employees:women",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=4"
+    },
+    {
+      "id": "constitution-day",
+      "date": "2083-06-03",
+      "name": "Constitution Day",
+      "nameNe": "संविधान दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "indra-jatra",
+      "date": "2083-06-09",
+      "name": "Indra Jatra (Kathmandu Valley)",
+      "nameNe": "इन्द्रजात्रा (काठमाडौं उपत्यका)",
+      "scope": "NP-region:KathmanduValley",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "jitiya",
+      "date": "2083-06-18",
+      "name": "Jitiya (women employees observing Jitiya)",
+      "nameNe": "जितिया (मनाउने महिला कर्मचारी)",
+      "scope": "NP-employees:women-observing-Jitiya",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=4"
+    },
+    {
+      "id": "ghatasthapana",
+      "date": "2083-06-25",
+      "name": "Ghatasthapana",
+      "nameNe": "घटस्थापना",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "dashain",
+      "date": "2083-06-31",
+      "name": "Dashain holiday",
+      "nameNe": "दशैं बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "dashain",
+      "date": "2083-07-01",
+      "name": "Dashain holiday",
+      "nameNe": "दशैं बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "dashain",
+      "date": "2083-07-02",
+      "name": "Dashain holiday",
+      "nameNe": "दशैं बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "dashain",
+      "date": "2083-07-03",
+      "name": "Dashain holiday",
+      "nameNe": "दशैं बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "dashain",
+      "date": "2083-07-04",
+      "name": "Dashain holiday",
+      "nameNe": "दशैं बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "dashain",
+      "date": "2083-07-05",
+      "name": "Dashain holiday",
+      "nameNe": "दशैं बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "dashain",
+      "date": "2083-07-06",
+      "name": "Dashain holiday",
+      "nameNe": "दशैं बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "tihar",
+      "date": "2083-07-22",
+      "name": "Tihar holiday",
+      "nameNe": "तिहार बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "tihar",
+      "date": "2083-07-23",
+      "name": "Tihar holiday",
+      "nameNe": "तिहार बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "tihar",
+      "date": "2083-07-24",
+      "name": "Tihar holiday",
+      "nameNe": "तिहार बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "falgunand-jayanti",
+      "date": "2083-07-25",
+      "name": "Falgunand Jayanti (Kirat followers)",
+      "nameNe": "फाल्गुनन्द जयन्ती (किरात धर्मावलम्बी)",
+      "scope": "NP-community:Kirat",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=6"
+    },
+    {
+      "id": "tihar",
+      "date": "2083-07-25",
+      "name": "Tihar holiday",
+      "nameNe": "तिहार बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "tihar",
+      "date": "2083-07-26",
+      "name": "Tihar holiday",
+      "nameNe": "तिहार बिदा",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=2"
+    },
+    {
+      "id": "chhath",
+      "date": "2083-07-29",
+      "name": "Chhath",
+      "nameNe": "छठ पर्व",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "disability-day",
+      "date": "2083-08-17",
+      "name": "International Day of Persons with Disabilities (employees with disabilities)",
+      "nameNe": "अन्तर्राष्ट्रिय अपाङ्गता दिवस (अपाङ्गता भएका कर्मचारी)",
+      "scope": "NP-employees:disability",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "dhanya-purnima",
+      "date": "2083-09-09",
+      "name": "Dhanya Purnima / Udhauli / Yomari Punhi / Jyapu Day",
+      "nameNe": "धान्य पूर्णिमा / उधौली / योमरी पुन्हि / ज्यापु दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "christmas",
+      "date": "2083-09-10",
+      "name": "Christmas Day",
+      "nameNe": "क्रिसमस डे",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "dura-festival",
+      "date": "2083-09-15",
+      "name": "Dura community festival",
+      "nameNe": "दुरा समुदायको पर्व",
+      "scope": "NP-community:Dura",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=4"
+    },
+    {
+      "id": "tamu-lhosar",
+      "date": "2083-09-15",
+      "name": "Tamu Lhosar",
+      "nameNe": "तमु ल्होसार",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "prithvi-jayanti",
+      "date": "2083-09-27",
+      "name": "Prithvi Jayanti / National Unity Day",
+      "nameNe": "पृथ्वी जयन्ती / राष्ट्रिय एकता दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=6"
+    },
+    {
+      "id": "maghe-sankranti",
+      "date": "2083-10-01",
+      "name": "Maghi / Maghe Sankranti",
+      "nameNe": "माघी / माघे सङ्क्रान्ति",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "martyrs-day",
+      "date": "2083-10-16",
+      "name": "Martyrs Day",
+      "nameNe": "शहीद दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "sonam-lhosar",
+      "date": "2083-10-24",
+      "name": "Sonam Lhosar",
+      "nameNe": "सोनम ल्होसार",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "basanta-panchami",
+      "date": "2083-10-28",
+      "name": "Basanta Panchami (educational institutions)",
+      "nameNe": "वसन्त पञ्चमी (शिक्षण संस्था)",
+      "scope": "NP-education",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=4"
+    },
+    {
+      "id": "democracy-day",
+      "date": "2083-11-07",
+      "name": "National Democracy Day",
+      "nameNe": "राष्ट्रिय प्रजातन्त्र दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "mahashivaratri",
+      "date": "2083-11-22",
+      "name": "Mahashivaratri",
+      "nameNe": "महाशिवरात्रि",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "womens-day",
+      "date": "2083-11-24",
+      "name": "International Womens Day",
+      "nameNe": "अन्तर्राष्ट्रिय महिला दिवस",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    },
+    {
+      "id": "gyalpo-lhosar",
+      "date": "2083-11-25",
+      "name": "Gyalpo Lhosar",
+      "nameNe": "ग्याल्पो ल्होसार",
+      "scope": "NP-national",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "holi-hills",
+      "date": "2083-12-08",
+      "name": "Fagu Purnima (hill and Himalayan districts)",
+      "nameNe": "फागु पूर्णिमा (हिमाली र पहाडी जिल्ला)",
+      "scope": "NP-region:hills-himalaya",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=3"
+    },
+    {
+      "id": "holi-terai",
+      "date": "2083-12-09",
+      "name": "Fagu Purnima (listed Terai districts)",
+      "nameNe": "फागु पूर्णिमा (सूचीकृत तराई जिल्ला)",
+      "scope": "NP-region:terai",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=4"
+    },
+    {
+      "id": "ghode-jatra",
+      "date": "2083-12-24",
+      "name": "Ghode Jatra (Kathmandu Valley)",
+      "nameNe": "घोडेजात्रा (काठमाडौं उपत्यका)",
+      "scope": "NP-region:KathmanduValley",
+      "source": "https://www.moha.gov.np/assets/2/%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A9_%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE_%2867_11_18%29.pdf/file#page=5"
+    }
+  ]
+}
