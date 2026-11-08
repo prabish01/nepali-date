@@ -4,9 +4,15 @@ Immutable Bikram Sambat dates for JavaScript and TypeScript, with English and
 Nepali parsing/formatting, Nepal timezone conversion, fiscal years, holiday
 records, and tithi utilities. Zero runtime dependencies. ESM and CommonJS.
 
-**Pre-release 0.1.0.** Prepared for community review; not published to npm yet.
-The proposed npm name is `@prabish01/nepali-date`; registry ownership and name
-availability must be confirmed before publishing.
+## Install
+
+```sh
+npm install @prabish01/nepali-date
+```
+
+Available on [npm](https://www.npmjs.com/package/@prabish01/nepali-date).
+Requires Node.js 20 or newer. Modern browsers work through a bundler with
+`Intl.DateTimeFormat` and IANA timezone support.
 
 ## Coverage
 
@@ -24,30 +30,7 @@ availability must be confirmed before publishing.
 **Tithi is not a daily almanac:** no ephemeris or dated tithi dataset is bundled.
 Holiday coverage is not exhaustive: unannounced dates, later notices and local
 additions are excluded. Missing records do not establish that a day is a working
-day. See [data provenance](docs/DATA.md) for evidence and coverage limits.
-
-## Install locally
-
-Requires Node.js 20 or newer for development. Modern browsers work through a
-bundler with `Intl.DateTimeFormat` and IANA timezone support.
-
-```sh
-npm ci
-npm run check
-npm pack
-```
-
-Install the resulting archive in your application:
-
-```sh
-npm install /path/to/prabish01-nepali-date-0.1.0.tgz
-```
-
-After the package is published, registry installation will be:
-
-```sh
-npm install @prabish01/nepali-date
-```
+day. See [data provenance](https://github.com/prabish01/nepali-date/blob/main/docs/DATA.md) for evidence and coverage limits.
 
 ## Quick start
 
@@ -108,7 +91,7 @@ constructed one.
 Timezone conversion uses the runtime's IANA data, including Nepal's earlier
 offsets. `toInstant()` rejects missing or repeated local times rather than
 silently choosing one. For example, midnight on AD 1986-01-01 in Kathmandu did
-not exist; the first valid wall time was 00:15. See [API details](docs/API.md).
+not exist; the first valid wall time was 00:15. See [API details](https://github.com/prabish01/nepali-date/blob/main/docs/API.md).
 
 ## Parsing and formatting
 
@@ -216,9 +199,16 @@ To look up actual tithi at an instant, supply sourced interval records containin
 `start`, `end`, `number` (1–30), and `source`. Intervals must not overlap and are
 start-inclusive, end-exclusive. Gaps return `null`. This supports changes during
 a civil day without pretending that every date has one tithi. See
-[data imports](docs/DATA.md#tithi-imports). Longitude classification requires
+[data imports](https://github.com/prabish01/nepali-date/blob/main/docs/DATA.md#tithi-imports). Longitude classification requires
 both angles in `[0, 360)` from the same reference frame and instant; computing
 them and applying location/sunrise festival conventions belongs to your provider.
+
+## Interactive showcase
+
+The [HTML showcase](https://github.com/prabish01/nepali-date/tree/main/showcase)
+provides live conversion, formatting, arithmetic, fiscal-year, timezone, holiday
+and tithi examples powered by the published package. See its README for local
+preview commands and Vercel deployment settings.
 
 ## Development
 
@@ -232,12 +222,12 @@ strict parsing, fiscal boundaries, timezone transitions, browser bundling,
 TypeScript ESM/CommonJS consumers and an offline-installed npm tarball.
 The CI matrix runs Node.js 20, 22 and 24 in three default timezones.
 
-See [API reference](docs/API.md), [contributing](CONTRIBUTING.md),
-[release instructions](docs/RELEASING.md), and [changelog](CHANGELOG.md).
+See [API reference](https://github.com/prabish01/nepali-date/blob/main/docs/API.md), [contributing](https://github.com/prabish01/nepali-date/blob/main/CONTRIBUTING.md),
+[release instructions](https://github.com/prabish01/nepali-date/blob/main/docs/RELEASING.md), and [changelog](https://github.com/prabish01/nepali-date/blob/main/CHANGELOG.md).
 
-Library code: [MIT](LICENSE). Calendar-table redistribution also retains the
-upstream [Apache-2.0 license](licenses/Apache-2.0.txt) and
-[third-party attribution](THIRD_PARTY_NOTICES.md).
+Library code: [MIT](https://github.com/prabish01/nepali-date/blob/main/LICENSE). Calendar-table redistribution also retains the
+upstream [Apache-2.0 license](https://github.com/prabish01/nepali-date/blob/main/licenses/Apache-2.0.txt) and
+[third-party attribution](https://github.com/prabish01/nepali-date/blob/main/THIRD_PARTY_NOTICES.md).
 
 ## Author
 

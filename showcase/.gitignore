@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+.qa/
+.DS_Store
+.codex/
+AGENTS.md
+AGENTS.override.md
+*[Cc][Oo][Dd][Ee][Xx]*.[mM][dD]

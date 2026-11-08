@@ -1,6 +1,18 @@
 # Changelog
 
-## 0.1.0 — Unreleased
+## Unreleased
+
+- Add the interactive HTML showcase with local preview and Vercel build settings.
+- Add CI coverage for the showcase build.
+
+## 0.1.1 — 2026-11-07
+
+- Remove obsolete unpublished/proposed-name wording from the README.
+- Make npm installation the main setup instruction and link documentation to GitHub.
+- Add repository, issue tracker and homepage package metadata.
+- Update release/security guidance to reflect the published package.
+
+## 0.1.0 — 2026-11-07
 
 - Immutable `BSDate`, pure AD/BS conversion and explicit supported ranges.
 - Pinned BS 1975–2083 calendar data with provenance, licensing and checksums.
@@ -13,5 +25,5 @@
 - ESM/CommonJS entries, TypeScript declarations, browser-bundler checks,
   exhaustive date tests, package-install smoke checks and timezone CI.
 
-No npm release has been published. No daily ephemeris/tithi almanac is bundled;
+No daily ephemeris/tithi almanac is bundled;
 unannounced holiday dates and later/local holiday notices remain out of scope.

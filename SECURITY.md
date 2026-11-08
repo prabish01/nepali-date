@@ -1,10 +1,9 @@
 # Security
 
-Only the latest release will receive fixes during the 0.x series. No release
-has been published yet.
+Only the latest release receives fixes during the 0.x series.
 
 Report security issues privately through GitHub private vulnerability reporting
-when enabled on the eventual package repository, or contact Prabish Dangi through
+when enabled on [the package repository](https://github.com/prabish01/nepali-date/security), or contact Prabish Dangi through
 his linked profile to arrange a private report. Do not include credentials or
 private personal data in public issues.
 

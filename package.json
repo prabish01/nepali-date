@@ -1,6 +1,6 @@
 {
   "name": "@prabish01/nepali-date",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Immutable Bikram Sambat dates, Nepal timezone conversion, formatting, fiscal years, holidays and tithi utilities.",
   "license": "(MIT AND Apache-2.0)",
   "author": {
@@ -66,5 +66,13 @@
   "devDependencies": {
     "esbuild": "0.28.2",
     "typescript": "7.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabish01/nepali-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prabish01/nepali-date/issues"
+  },
+  "homepage": "https://github.com/prabish01/nepali-date#readme"
 }

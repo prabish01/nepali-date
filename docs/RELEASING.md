@@ -1,21 +1,25 @@
 # Releasing to the community
 
-The working package name is `@prabish01/nepali-date`, version `0.1.0`.
-GitHub identity is `prabish01`; npm account/scope ownership is not assumed.
-No automatic publish workflow or registry credentials are included.
+Package: `@prabish01/nepali-date` on [npm](https://www.npmjs.com/package/@prabish01/nepali-date).
+Repository: https://github.com/prabish01/nepali-date.
 
-## Before the first release
+Version 0.1.1 is published. The interactive showcase lives in `showcase/` and
+is deployed independently from the npm package. No automatic npm publish
+workflow or registry credentials are included.
 
-- Confirm the npm scope/name under your own account; update package metadata,
-  examples and type fixtures together if the name changes.
-- Create or choose the GitHub repository. Set actual `repository`, `bugs` and
-  project `homepage` metadata after its URL is known. Do not use nonexistent URLs.
-- Review calendar sources, the transcribed 2083 holiday categories, documented
-  pending observances and the absence of a bundled daily tithi almanac.
-- Run `npm ci` and `npm run check`; inspect CI on the supported Node/timezone matrix.
-- Update the changelog from Unreleased to the actual release date.
-- Check author attribution: Prabish Dangi, LinkedIn link, no assistant co-author
-  trailers. Keep MIT and upstream Apache-2.0 notices in the archive.
+## Prepare a release
+
+- Review the diff and use a new version for every publication, including README-only
+  updates. npm does not refresh its package README from a GitHub push.
+- Compare `package.json` with `npm view @prabish01/nepali-date version`. Use a
+  version that has not been published, and update the lockfile and changelog
+  together. A published version cannot be overwritten.
+- Replace the pending changelog heading with the actual publication date.
+- Keep package repository links and installation examples current. Do not describe
+  a published package as unpublished or its established name as proposed.
+- Review data sources, documented coverage and pending observances when changing
+  datasets. Keep Prabish Dangi's author attribution and all required licenses.
+- Run the checks and inspect the archive before publishing.
 
 ## Build and inspect
 
@@ -40,20 +44,18 @@ npm whoami
 npm publish --access public
 ```
 
-Use npm's current authentication/2FA or trusted-publishing requirements. Never
-commit tokens. Publish only after confirming the chosen name and package contents.
-Tag the release and write release notes showing supported ranges and data changes.
-Corrected month lengths may shift later conversions; call that out explicitly.
+Use the authenticated npm account with publish access and complete npm's required
+2FA challenge. Never commit tokens. After publication, verify the registry:
 
-## GitHub profile
+```sh
+npm view @prabish01/nepali-date version
+```
 
-LinkedIn: https://www.linkedin.com/in/prabish-dangi-04a649211/
+Check the npm page for the new README. Commit and push the release files using
+your own Git identity, without assistant co-author trailers. Tag the release and
+write release notes showing supported ranges and data changes. Corrected month
+lengths can shift later conversions; explain any such change explicitly.
 
-The LinkedIn social link already exists on `prabish01`. Adding it to the bio
-through the CLI needs a token with the `user` scope. If necessary, authenticate
-with `gh auth refresh -h github.com -s user` and then update the bio.
-
-Once the public repository exists, open https://github.com/prabish01, choose
-**Customize your pins**, select the package repository, and save. GitHub's
-available public GraphQL schema has no profile repository-pin mutation; issue
-pinning operations are unrelated.
+For subsequent releases, choose the version after checking the registry. Use
+`npm version patch --no-git-tag-version` for a patch once the prior release is
+published, then update the changelog, verify, commit and publish.
