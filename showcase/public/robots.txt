@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nepali-date.prabishdangi.com.np/sitemap.xml

@@ -6,17 +6,20 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node scripts/dev.mjs",
-    "preview": "node scripts/serve.mjs"
+    "preview": "node scripts/serve.mjs",
+    "render:og": "node scripts/render-og.mjs",
+    "check:seo": "node scripts/check-seo.mjs"
   },
   "dependencies": {
-    "@prabish01/nepali-date": "0.1.1",
-    "@phosphor-icons/web": "2.1.2",
     "@fontsource-variable/geist": "5.3.0",
     "@fontsource-variable/geist-mono": "5.3.0",
-    "@fontsource-variable/noto-sans-devanagari": "5.3.0"
+    "@fontsource-variable/noto-sans-devanagari": "5.3.0",
+    "@phosphor-icons/web": "2.1.2",
+    "@prabish01/nepali-date": "0.1.1"
   },
   "devDependencies": {
-    "esbuild": "0.28.2"
+    "esbuild": "0.28.2",
+    "playwright": "1.65.0"
   },
   "engines": {
     "node": ">=22"

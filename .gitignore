@@ -8,3 +8,6 @@ coverage/
 AGENTS.md
 AGENTS.override.md
 *[Cc][Oo][Dd][Ee][Xx]*.[mM][dD]
+
+# Local SEO working data
+.seo-cache/

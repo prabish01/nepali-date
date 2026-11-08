@@ -56,3 +56,28 @@ npm run preview
 library's npm publishing allowlist excludes this showcase.
 
 Author: [Prabish Dangi](https://www.linkedin.com/in/prabish-dangi-04a649211/).
+
+## Social preview and SEO
+
+The committed `public/nepali-date-bs-ad-converter-og.png` is a 1200×630 PNG
+rendered entirely from the actual hero HTML/CSS, self-hosted fonts and live
+calendar output. It uses the fixed reference 2083-01-01 BS = 2026-04-14 AD;
+it contains no generated artwork or external stock assets.
+
+Regenerate it after changing the hero:
+
+```sh
+npm run render:og
+npm run check:seo
+```
+
+The export script uses system Google Chrome on macOS when available. Elsewhere,
+run `npx playwright install chromium` first, or set `CHROME_PATH` to a Chrome
+executable. Browser installation is only needed for exporting the image, not
+for Vercel builds. The static image is committed and copied during each build.
+
+The initial HTML includes a descriptive search title, meta description,
+canonical URL, Open Graph and Twitter image tags, and JSON-LD for the website,
+source library, image and author. `robots.txt` points to the single-page sitemap.
+After deployment, LinkedIn's Post Inspector can refresh a previously cached
+preview; an already saved Featured item may need to be added again.
